@@ -35,12 +35,13 @@
 # Steps
 
 General steps done for analyis in main program:
-  0) Import Pandas and .py helper functions 
-  1) Read Excel file
-  2) Rename column names (helper function) and drop non value columns
-  3) Clean variable names (country, activity, type)
-  4) Exploratory Data Analysis with Pivot Tables (country, activity, type) as well as some visualization
-  5) Top 3 countries Pivot table and Hypothesis confirmation
+
+  1) Import Pandas and .py helper functions 
+  2) Read Excel file
+  3) Rename column names (helper function) and drop non value columns
+  4) Clean variable names (country, activity, type)
+  5) Exploratory Data Analysis with Pivot Tables (country, activity, type) as well as some visualization
+  6) Top 3 countries Pivot table and Hypothesis confirmation
 
 # Conclusion
 
