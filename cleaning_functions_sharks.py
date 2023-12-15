@@ -98,3 +98,14 @@ def clean_type(df):
     df["type"] = df["type"].replace({"?": "Unconfirmed", "Unconfirmed": "Unconfirmed", "Unverified": "Unconfirmed", "Under investigation":"Unconfirmed","Questionable":"Unconfirmed"})
     df["type"] = df["type"].str.lower()
     return df
+
+def top_visualize(df,group_var,helper_var,top=3):
+     "Get top 3 (default) of group_var variable inside DataFrame df. Should be used for categorical variables"
+    import seaborn as sns
+    # Do group by, it will be a series
+    top_var = df.groupby(group_var)[helper_var].count().sort_values(ascending=False).head(top) # group by group_var and use helper_var to count
+    # get DF with top 3 activities
+    df_top = df.loc[df[group_var].isin(top_var.index)]
+    # plot
+    sns.countplot(x=group_var, data=df_top)
+    return

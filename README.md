@@ -1,6 +1,6 @@
 # Shark Attacks
 
-  Project status - Completed
+  Project status - Completed.
   Part of IronHack Data Analysis Course
   
 # Project objective
@@ -14,11 +14,13 @@
   - Cleaning data
   - Filtering
   - Grouping (Pandas Pivot Tables)
+  - Visualization - countplot
 
 # Technologies 
 
   - Python
   - Pandas
+  - Seaborn library
   - Python Functions (.py file)
   - Jupyter Notebook (.ipnb file, main program)
 
@@ -37,8 +39,8 @@ General steps done for analyis in main program:
   1) Read Excel file
   2) Rename column names (helper function) and drop non value columns
   3) Clean variable names (country, activity, type)
-  4) Exploratory Data Analysis with Pivot Tables (country, activity, type)
-  5) Tope 3 countries Pivot table and Hypothesis confirmation
+  4) Exploratory Data Analysis with Pivot Tables (country, activity, type) as well as some visualization
+  5) Top 3 countries Pivot table and Hypothesis confirmation
 
 # Conclusion
 
@@ -51,5 +53,6 @@ General steps done for analyis in main program:
   
 # Contact
   
-  LinkedIn: https://www.linkedin.com/in/edwardo-rivera/
-  GitHub: https://github.com/edwardo2013
+  - LinkedIn: https://www.linkedin.com/in/edwardo-rivera/
+  
+  - GitHub: https://github.com/edwardo2013
